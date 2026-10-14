@@ -5,8 +5,10 @@ import {
   LawUnitDetail, UserSettings, SummaryLength, AudienceView, OutputLanguage,
   AuthUser
 } from './types';
-
-const API_BASE = '/api';
+const RAW_API_URL = (import.meta.env.VITE_API_BASE_URL || '').trim();
+const API_BASE = RAW_API_URL
+  ? (RAW_API_URL.endsWith('/api') ? RAW_API_URL : `${RAW_API_URL.replace(/\/+$/, '')}/api`)
+  : '/api';
 
 export const api = {
   // Document Operations

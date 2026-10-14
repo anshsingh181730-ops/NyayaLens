@@ -10,6 +10,21 @@ const API_BASE = RAW_API_URL
   ? (RAW_API_URL.endsWith('/api') ? RAW_API_URL : `${RAW_API_URL.replace(/\/+$/, '')}/api`)
   : '/api';
 
+async function extractErrorMessage(res: Response, fallback: string): Promise<string> {
+  const errData = await res.json().catch(() => ({ detail: res.statusText }));
+  const detail = errData?.detail ?? errData?.message;
+  let message = typeof detail === 'string'
+    ? detail
+    : (Array.isArray(detail)
+        ? detail.map((e: any) => (typeof e === 'string' ? e : e?.msg || JSON.stringify(e))).join(', ')
+        : (detail ? JSON.stringify(detail) : fallback));
+
+  if (res.status === 502 || res.status === 503 || res.status === 504 || (res.status === 500 && message === 'Internal Server Error')) {
+    message = 'Backend server is not responding. Please make sure the FastAPI backend is running on port 8000.';
+  }
+  return message || fallback;
+}
+
 export const api = {
   // Document Operations
   async uploadDocument(file?: File, pastedText?: string, filename?: string): Promise<DocumentUploadResponse> {
@@ -173,14 +188,8 @@ export const api = {
       body: JSON.stringify({ name, email, password }),
     });
     if (!res.ok) {
-      const errData = await res.json().catch(() => ({ detail: res.statusText }));
-      const detail = errData?.detail ?? errData?.message;
-      const message = typeof detail === 'string'
-        ? detail
-        : (Array.isArray(detail)
-            ? detail.map((e: any) => (typeof e === 'string' ? e : e?.msg || JSON.stringify(e))).join(', ')
-            : (detail ? JSON.stringify(detail) : 'Failed to sign up'));
-      throw new Error(message || 'Failed to sign up');
+      const message = await extractErrorMessage(res, 'Failed to sign up');
+      throw new Error(message);
     }
     return res.json();
   },
@@ -193,14 +202,8 @@ export const api = {
       body: JSON.stringify({ email, password }),
     });
     if (!res.ok) {
-      const errData = await res.json().catch(() => ({ detail: res.statusText }));
-      const detail = errData?.detail ?? errData?.message;
-      const message = typeof detail === 'string'
-        ? detail
-        : (Array.isArray(detail)
-            ? detail.map((e: any) => (typeof e === 'string' ? e : e?.msg || JSON.stringify(e))).join(', ')
-            : (detail ? JSON.stringify(detail) : 'Incorrect email or password'));
-      throw new Error(message || 'Incorrect email or password');
+      const message = await extractErrorMessage(res, 'Incorrect email or password');
+      throw new Error(message);
     }
     return res.json();
   },
@@ -211,14 +214,8 @@ export const api = {
       credentials: 'include',
     });
     if (!res.ok) {
-      const errData = await res.json().catch(() => ({ detail: res.statusText }));
-      const detail = errData?.detail ?? errData?.message;
-      const message = typeof detail === 'string'
-        ? detail
-        : (Array.isArray(detail)
-            ? detail.map((e: any) => (typeof e === 'string' ? e : e?.msg || JSON.stringify(e))).join(', ')
-            : (detail ? JSON.stringify(detail) : 'Failed to continue as guest'));
-      throw new Error(message || 'Failed to continue as guest');
+      const message = await extractErrorMessage(res, 'Failed to continue as guest');
+      throw new Error(message);
     }
     return res.json();
   },

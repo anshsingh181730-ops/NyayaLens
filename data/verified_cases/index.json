@@ -1,0 +1,73 @@
+{
+  "_comment": "VERIFIED CASE LAW REPOSITORY INDEX: Contains authentic citations, case titles, courts, years, and file paths to full-text judgments supplied in the repository. Do not invent citations.",
+  "cases": [
+    {
+      "case_name": "Arnesh Kumar v. State of Bihar & Anr.",
+      "court": "Supreme Court of India",
+      "year": 2014,
+      "citation_strings": [
+        "(2014) 8 SCC 273",
+        "2014 (8) SCC 273",
+        "AIR 2014 SC 2756",
+        "2014 AIR SC 2756",
+        "2014 INSC 477"
+      ],
+      "text_path": "sample_judgements/Arnesh_Kumar_2014.PDF",
+      "key_principles": "Guidelines on arrest under Section 498A IPC and Section 41 CrPC; mandatory notice of appearance."
+    },
+    {
+      "case_name": "D.K. Basu v. State of West Bengal",
+      "court": "Supreme Court of India",
+      "year": 1997,
+      "citation_strings": [
+        "(1997) 1 SCC 416",
+        "1997 (1) SCC 416",
+        "AIR 1997 SC 610",
+        "1997 AIR SC 610",
+        "1996 INSC 1591"
+      ],
+      "text_path": "sample_judgements/D_K_Basu_1994.PDF",
+      "key_principles": "Custodial violence and mandatory guidelines to be followed by police during arrest and detention."
+    },
+    {
+      "case_name": "Kesavananda Bharati Sripadagalvaru & Ors. v. State of Kerala & Anr.",
+      "court": "Supreme Court of India",
+      "year": 1973,
+      "citation_strings": [
+        "(1973) 4 SCC 225",
+        "1973 (4) SCC 225",
+        "AIR 1973 SC 1461",
+        "1973 AIR SC 1461"
+      ],
+      "text_path": "sample_judgements/Kesavananda-Bharati-1973.pdf",
+      "key_principles": "Basic Structure Doctrine; Parliament cannot alter the basic structure of the Constitution under Article 368."
+    },
+    {
+      "case_name": "Lalita Kumari v. Govt. of U.P. & Ors.",
+      "court": "Supreme Court of India",
+      "year": 2014,
+      "citation_strings": [
+        "(2014) 2 SCC 1",
+        "2014 (2) SCC 1",
+        "AIR 2014 SC 187",
+        "2014 AIR SC 187",
+        "2013 INSC 1184"
+      ],
+      "text_path": "sample_judgements/Lalita_Kumari_2013.PDF",
+      "key_principles": "Mandatory registration of FIR under Section 154 CrPC if cognizable offence is disclosed."
+    },
+    {
+      "case_name": "Maneka Gandhi v. Union of India",
+      "court": "Supreme Court of India",
+      "year": 1978,
+      "citation_strings": [
+        "(1978) 1 SCC 248",
+        "1978 (1) SCC 248",
+        "AIR 1978 SC 597",
+        "1978 AIR SC 597"
+      ],
+      "text_path": "sample_judgements/Maneka Gandhi.pdf",
+      "key_principles": "Interlinking of Articles 14, 19, and 21; procedure established by law must be just, fair, and reasonable."
+    }
+  ]
+}

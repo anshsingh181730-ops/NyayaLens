@@ -1,0 +1,135 @@
+{
+  "_header_notice": "OFFICIAL CORRESPONDENCE MAPPING SCHEMA: All entries in this file must be copied or extracted directly from the official Comparative Tables published in the Gazette of India by the Ministry of Home Affairs / Ministry of Law and Justice for Bharatiya Nyaya Sanhita (BNS) 2023, Bharatiya Nagarik Suraksha Sanhita (BNSS) 2023, and Bharatiya Sakshya Adhiniyam (BSA) 2023. Do not guess, speculate, or fabricate statutory mappings.",
+  "source_document": "data/IPC_BNS_Mapping.pdf",
+  "version": "1.0",
+  "mappings": [
+    {
+      "old_code": "IPC",
+      "old_section": "420",
+      "new_code": "BNS",
+      "new_section": "318(4)",
+      "subject": "Cheating and dishonestly inducing delivery of property",
+      "note": "Corresponds to Section 318(4) of Bharatiya Nyaya Sanhita, 2023. Verify against official gazette table."
+    },
+    {
+      "old_code": "IPC",
+      "old_section": "302",
+      "new_code": "BNS",
+      "new_section": "103(1)",
+      "subject": "Punishment for murder",
+      "note": "Corresponds to Section 103(1) of Bharatiya Nyaya Sanhita, 2023. Verify against official gazette table."
+    },
+    {
+      "old_code": "IPC",
+      "old_section": "304A",
+      "new_code": "BNS",
+      "new_section": "106(1)",
+      "subject": "Causing death by negligence",
+      "note": "Corresponds to Section 106(1) of Bharatiya Nyaya Sanhita, 2023. Verify against official gazette table."
+    },
+    {
+      "old_code": "IPC",
+      "old_section": "375",
+      "new_code": "BNS",
+      "new_section": "63",
+      "subject": "Rape definition",
+      "note": "Corresponds to Section 63 of Bharatiya Nyaya Sanhita, 2023. Verify against official gazette table."
+    },
+    {
+      "old_code": "IPC",
+      "old_section": "376",
+      "new_code": "BNS",
+      "new_section": "64",
+      "subject": "Punishment for rape",
+      "note": "Corresponds to Section 64 of Bharatiya Nyaya Sanhita, 2023. Verify against official gazette table."
+    },
+    {
+      "old_code": "IPC",
+      "old_section": "124A",
+      "new_code": "BNS",
+      "new_section": "152",
+      "subject": "Act endangering sovereignty, unity and integrity of India",
+      "note": "Corresponds to Section 152 of Bharatiya Nyaya Sanhita, 2023. Verify against official gazette table."
+    },
+    {
+      "old_code": "CrPC",
+      "old_section": "154",
+      "new_code": "BNSS",
+      "new_section": "173",
+      "subject": "Information in cognizable cases (FIR)",
+      "note": "Corresponds to Section 173 of Bharatiya Nagarik Suraksha Sanhita, 2023. Verify against official gazette table."
+    },
+    {
+      "old_code": "CrPC",
+      "old_section": "41A",
+      "new_code": "BNSS",
+      "new_section": "35(3)",
+      "subject": "Notice of appearance before police officer",
+      "note": "Corresponds to Section 35(3) of Bharatiya Nagarik Suraksha Sanhita, 2023. Verify against official gazette table."
+    },
+    {
+      "old_code": "CrPC",
+      "old_section": "161",
+      "new_code": "BNSS",
+      "new_section": "180",
+      "subject": "Examination of witnesses by police",
+      "note": "Corresponds to Section 180 of Bharatiya Nagarik Suraksha Sanhita, 2023. Verify against official gazette table."
+    },
+    {
+      "old_code": "CrPC",
+      "old_section": "164",
+      "new_code": "BNSS",
+      "new_section": "183",
+      "subject": "Recording of confessions and statements",
+      "note": "Corresponds to Section 183 of Bharatiya Nagarik Suraksha Sanhita, 2023. Verify against official gazette table."
+    },
+    {
+      "old_code": "CrPC",
+      "old_section": "437",
+      "new_code": "BNSS",
+      "new_section": "480",
+      "subject": "When bail may be taken in case of non-bailable offence",
+      "note": "Corresponds to Section 480 of Bharatiya Nagarik Suraksha Sanhita, 2023. Verify against official gazette table."
+    },
+    {
+      "old_code": "CrPC",
+      "old_section": "438",
+      "new_code": "BNSS",
+      "new_section": "482",
+      "subject": "Direction for grant of bail to person apprehending arrest (Anticipatory bail)",
+      "note": "Corresponds to Section 482 of Bharatiya Nagarik Suraksha Sanhita, 2023. Verify against official gazette table."
+    },
+    {
+      "old_code": "CrPC",
+      "old_section": "482",
+      "new_code": "BNSS",
+      "new_section": "528",
+      "subject": "Saving of inherent powers of High Court",
+      "note": "Corresponds to Section 528 of Bharatiya Nagarik Suraksha Sanhita, 2023. Verify against official gazette table."
+    },
+    {
+      "old_code": "IEA",
+      "old_section": "65B",
+      "new_code": "BSA",
+      "new_section": "63",
+      "subject": "Admissibility of electronic records",
+      "note": "Corresponds to Section 63 of Bharatiya Sakshya Adhiniyam, 2023. Verify against official gazette table."
+    },
+    {
+      "old_code": "IEA",
+      "old_section": "25",
+      "new_code": "BSA",
+      "new_section": "23",
+      "subject": "Confession to police officer not to be proved",
+      "note": "Corresponds to Section 23 of Bharatiya Sakshya Adhiniyam, 2023. Verify against official gazette table."
+    },
+    {
+      "old_code": "IEA",
+      "old_section": "27",
+      "new_code": "BSA",
+      "new_section": "23(2)",
+      "subject": "How much of information received from accused may be proved",
+      "note": "Corresponds to Section 23(2) proviso of Bharatiya Sakshya Adhiniyam, 2023. Verify against official gazette table."
+    }
+  ]
+}

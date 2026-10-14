@@ -1,0 +1,40 @@
+# Environment & Secrets
+.env
+*.env
+.env.*
+!.env.example
+
+# Python & Virtual Environments
+.venv/
+venv/
+ENV/
+env/
+__pycache__/
+*.py[cod]
+*$py.class
+*.pytest_cache/
+
+# Databases & Vector Stores
+nyayalens.db
+*.db
+*.sqlite3
+chroma_db/
+
+# Uploads & Temporary Files
+uploads/
+*.log
+
+# Node & Frontend Build
+node_modules/
+frontend/node_modules/
+dist/
+frontend/dist/
+build/
+.npm
+npm-debug.log*
+
+# IDE & OS Files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db

@@ -1,0 +1,79 @@
+{
+  "document_name": "Constitution of India",
+  "short_code": "COI",
+  "official_source": "Legislative Department, Ministry of Law and Justice, Government of India",
+  "units": [
+    {
+      "unit_type": "article",
+      "number": "14",
+      "title": "Equality before law",
+      "part": "Part III: Fundamental Rights",
+      "chapter": "Right to Equality",
+      "text": "The State shall not deny to any person equality before the law or the equal protection of the laws within the territory of India.",
+      "status": "In Force"
+    },
+    {
+      "unit_type": "article",
+      "number": "19",
+      "title": "Protection of certain rights regarding freedom of speech, etc.",
+      "part": "Part III: Fundamental Rights",
+      "chapter": "Right to Freedom",
+      "text": "(1) All citizens shall have the right—\n(a) to freedom of speech and expression;\n(b) to assemble peaceably and without arms;\n(c) to form associations or unions or co-operative societies;\n(d) to move freely throughout the territory of India;\n(e) to reside and settle in any part of the territory of India; and\n(g) to practise any profession, or to carry on any occupation, trade or business.\n(2) Reasonable restrictions may be imposed under Article 19(2) on grounds of sovereignty and integrity of India, security of the State, friendly relations with foreign States, public order, decency or morality, or in relation to contempt of court, defamation or incitement to an offence.",
+      "status": "In Force"
+    },
+    {
+      "unit_type": "article",
+      "number": "20",
+      "title": "Protection in respect of conviction for offences",
+      "part": "Part III: Fundamental Rights",
+      "chapter": "Right to Freedom",
+      "text": "(1) No person shall be convicted of any offence except for violation of the law in force at the time of the commission of the act (Protection against ex-post facto laws).\n(2) No person shall be prosecuted and punished for the same offence more than once (Protection against double jeopardy).\n(3) No person accused of any offence shall be compelled to be a witness against himself (Protection against self-incrimination).",
+      "status": "In Force"
+    },
+    {
+      "unit_type": "article",
+      "number": "21",
+      "title": "Protection of life and personal liberty",
+      "part": "Part III: Fundamental Rights",
+      "chapter": "Right to Freedom",
+      "text": "No person shall be deprived of his life or personal liberty except according to procedure established by law. As interpreted in Maneka Gandhi (1978) and K.S. Puttaswamy (2017), this fundamental right encompasses the right to live with human dignity, the right to privacy, right to livelihood, right to a clean environment, speedy trial, and legal aid. The procedure depriving life or liberty must be just, fair, and reasonable, and not arbitrary or oppressive.",
+      "status": "In Force"
+    },
+    {
+      "unit_type": "article",
+      "number": "21A",
+      "title": "Right to education",
+      "part": "Part III: Fundamental Rights",
+      "chapter": "Right to Freedom",
+      "text": "The State shall provide free and compulsory education to all children of the age of six to fourteen years in such manner as the State may, by law, determine.",
+      "status": "In Force"
+    },
+    {
+      "unit_type": "article",
+      "number": "22",
+      "title": "Protection against arrest and detention in certain cases",
+      "part": "Part III: Fundamental Rights",
+      "chapter": "Right to Freedom",
+      "text": "(1) No person who is arrested shall be detained in custody without being informed, as soon as may be, of the grounds for such arrest nor shall he be denied the right to consult, and to be defended by, a legal practitioner of his choice.\n(2) Every person who is arrested and detained in custody shall be produced before the nearest magistrate within a period of twenty-four hours of such arrest excluding the time necessary for the journey from the place of arrest to the court of the magistrate and no such person shall be detained in custody beyond the said period without the authority of a magistrate.",
+      "status": "In Force"
+    },
+    {
+      "unit_type": "article",
+      "number": "32",
+      "title": "Remedies for enforcement of rights conferred by this Part",
+      "part": "Part III: Fundamental Rights",
+      "chapter": "Right to Constitutional Remedies",
+      "text": "(1) The right to move the Supreme Court by appropriate proceedings for the enforcement of the rights conferred by this Part is guaranteed.\n(2) The Supreme Court shall have power to issue directions or orders or writs, including writs in the nature of habeas corpus, mandamus, prohibition, quo warranto and certiorari, whichever may be appropriate, for the enforcement of any of the rights conferred by this Part.",
+      "status": "In Force"
+    },
+    {
+      "unit_type": "article",
+      "number": "226",
+      "title": "Power of High Courts to issue certain writs",
+      "part": "Part VI: The States",
+      "chapter": "The High Courts in the States",
+      "text": "(1) Notwithstanding anything in article 32, every High Court shall have power, throughout the territories in relation to which it exercises jurisdiction, to issue to any person or authority, including in appropriate cases, any Government, within those territories directions, orders or writs, including writs in the nature of habeas corpus, mandamus, prohibition, quo warranto and certiorari, or any of them, for the enforcement of any of the rights conferred by Part III and for any other purpose.",
+      "status": "In Force"
+    }
+  ]
+}

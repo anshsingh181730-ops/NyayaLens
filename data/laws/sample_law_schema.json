@@ -1,0 +1,17 @@
+{
+  "document_name": "PLACEHOLDER_ACT_NAME",
+  "short_code": "ACT_CODE",
+  "official_source": "Official Gazette / Legislative Department, Ministry of Law and Justice",
+  "_comment": "SCHEMA DEFINITION: Fill this file with authentic text from India Code (indiacode.nic.in) or official legislative gazettes. Do not fabricate or invent statutory provisions.",
+  "units": [
+    {
+      "unit_type": "section",
+      "number": "1",
+      "title": "Short title, extent and commencement",
+      "part": null,
+      "chapter": "Chapter I: Preliminary",
+      "text": "Insert authentic statutory text directly from official gazette notification here.",
+      "status": "In Force"
+    }
+  ]
+}

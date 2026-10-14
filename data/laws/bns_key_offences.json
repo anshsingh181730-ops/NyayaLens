@@ -1,0 +1,52 @@
+{
+  "document_name": "Bharatiya Nyaya Sanhita, 2023",
+  "short_code": "BNS",
+  "official_source": "The Gazette of India, Extraordinary, Part II—Section 1",
+  "units": [
+    {
+      "unit_type": "section",
+      "number": "103",
+      "title": "Punishment for murder",
+      "part": null,
+      "chapter": "Chapter VI: Offences Affecting the Human Body",
+      "text": "(1) Whoever commits murder shall be punished with death or imprisonment for life, and shall also be liable to fine. Corresponds to historic Section 302 of the Indian Penal Code (IPC).\n(2) When a group of five or more persons acting in concert commits murder on the ground of race, caste or community, sex, place of birth, language, personal belief or any other similar ground, each member of such group shall be punished with death or with imprisonment for life, and shall also be liable to fine.",
+      "status": "In Force"
+    },
+    {
+      "unit_type": "section",
+      "number": "318",
+      "title": "Cheating",
+      "part": null,
+      "chapter": "Chapter XVII: Offences Against Property",
+      "text": "(1) Whoever, by deceiving any person, fraudulently or dishonestly induces the person so deceived to deliver any property to any person, or to consent that any person shall retain any property... is said to cheat. Corresponds to IPC Section 415.\n(2) Whoever cheats shall be punished with imprisonment of either description for a term which may extend to three years, or with fine, or with both. (Corresponds to IPC Section 417).\n(4) Whoever cheats and thereby dishonestly induces the person deceived to deliver any property to any person, or to make, alter or destroy the whole or any part of a valuable security... shall be punished with imprisonment of either description for a term which may extend to seven years, and shall also be liable to fine. (Corresponds to historic Section 420 of the Indian Penal Code).",
+      "status": "In Force"
+    },
+    {
+      "unit_type": "section",
+      "number": "69",
+      "title": "Sexual intercourse by employing deceitful means, etc.",
+      "part": null,
+      "chapter": "Chapter V: Offences Against Women and Children",
+      "text": "Whoever, by deceitful means or making by promise to marry to a woman without any intention of fulfilling the same, and has sexual intercourse with her, such sexual intercourse not amounting to the offence of rape, shall be punished with imprisonment of either description for a term which may extend to ten years and shall also be liable to fine. Explanation: 'deceitful means' shall include false promise of employment or promotion, inducement or marrying after suppressing identity.",
+      "status": "In Force"
+    },
+    {
+      "unit_type": "section",
+      "number": "85",
+      "title": "Husband or relative of husband of a woman subjecting her to cruelty",
+      "part": null,
+      "chapter": "Chapter V: Offences Against Women and Children",
+      "text": "Whoever, being the husband or the relative of the husband of a woman, subjects such woman to cruelty shall be punished with imprisonment for a term which may extend to three years and shall also be liable to fine. Corresponds to historic Section 498A of the Indian Penal Code.",
+      "status": "In Force"
+    },
+    {
+      "unit_type": "section",
+      "number": "303",
+      "title": "Theft",
+      "part": null,
+      "chapter": "Chapter XVII: Offences Against Property",
+      "text": "(1) Whoever, intending to take dishonestly any movable property out of the possession of any person without that person's consent, moves that property in order to such taking, is said to commit theft. (Corresponds to IPC Section 378).\n(2) Whoever commits theft shall be punished with imprisonment of either description for a term which may extend to three years, or with fine, or with both. (Corresponds to IPC Section 379).",
+      "status": "In Force"
+    }
+  ]
+}
